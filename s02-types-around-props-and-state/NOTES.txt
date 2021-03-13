@@ -8,4 +8,13 @@ Section 2: Types Around Props and State
 
   'Child' will receive props of type 'ChildProps'
 
-  
+
+
+ {user && user.name}
+
+ if user is defined then get user name 
+
+ {user && user.age}
+
+if user is defined then get user age 
+
