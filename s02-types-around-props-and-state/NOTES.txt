@@ -1,2 +1,11 @@
 Section 2: Types Around Props and State
  
+  export const Child: React.FC<ChildProps> = ({ color }) => { ....
+
+  'Child' will be a React function component
+
+  'Child' might have properties assigned to it like 'propType' and 'ContextTypes'
+
+  'Child' will receive props of type 'ChildProps'
+
+  
